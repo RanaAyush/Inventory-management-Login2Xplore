@@ -24,7 +24,7 @@ You can view a demo of this project [here](https://drive.google.com/file/d/1iZog
 
 ---
 
-## Contents
+## Content
 Below are some screenshots of the application:
 1. **Dashboard**: Displays navigation and allows access to various pages like Item Management, Item Received, Item Issued, and Item Report.
 2. **Item Management Page**: Used to add, edit, and view items.
