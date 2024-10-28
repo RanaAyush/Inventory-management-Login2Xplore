@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Report</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Item Report</h2>
+        <form id="reportForm">
+            <div class="form-group">
+                <label for="fromItemID">From Item ID</label>
+                <input type="text" id="fromItemID" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="toItemID">To Item ID</label>
+                <input type="text" id="toItemID" class="form-control" required>
+            </div>
+            <button class="btn btn-success my-1" type="submit">Generate Report</button>
+        </form>
+        <table id="reportTable" class="table table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>Item ID</th>
+                    <th>Item Name</th>
+                    <th>Current Stock</th>
+                    <th>Opening Stock</th>
+                    <th>UoM</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="../js/report.js"></script>
+</body>
+</html>
